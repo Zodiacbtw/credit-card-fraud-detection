@@ -1,8 +1,6 @@
 import os
 import sys
 
-from Scripts.pywin32_testall import project_root
-
 try:
     from data_preprocessing import load_and_merge_train_data
 except ModuleNotFoundError:
